@@ -1,0 +1,61 @@
+----------------- Options ---------------
+                batchSize: 1                             
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints/                
+           continue_train: False                         
+                    costl: False                         
+                 dataroot: ../datasets/boots             	[default: None]
+             dataset_mode: unaligned                     
+             display_freq: 100                           	[default: 400]
+               display_id: -1                            	[default: 1]
+            display_ncols: 4                             
+             display_port: 8097                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+              epoch_count: 1                             
+                 fineSize: 192                           
+                  gpu_ids: 0                             
+                     gray: False                         
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+                       lr: 0.0002                        
+           lr_decay_iters: 50                            
+                lr_policy: lambda                        
+         max_dataset_size: inf                           
+                    model: dmorph                        
+                 nThreads: 4                             
+                     name: boots_192_morphing            	[default: experiment_name]
+                       nc: 3                             
+                      ndf: 64                            
+                      ngf: 64                            
+                   nintrm: 5                             	[default: 2]
+                    niter: 100                           
+              niter_decay: 100                           
+                 no_adain: False                         
+                  no_adjp: False                         
+                 no_endpp: False                         
+                  no_flip: True                          	[default: False]
+                   no_gan: False                         
+                  no_html: False                         
+                 no_lsgan: False                         
+                 no_recon: False                         
+                output_nc: 3                             
+                    phase: train                         
+                pool_size: 50                            
+               print_freq: 100                           
+           resize_or_crop: resize                        
+                 save_dir:                               
+          save_epoch_freq: 5                             
+         save_latest_freq: 10000                         
+           serial_batches: False                         
+                      stn: True                          	[default: False]
+                   suffix:                               
+         update_html_freq: 10                            
+                  verbose: False                         
+                      w_d: 1.0                           
+                      w_g: 1.0                           
+                      w_p: 1.0                           
+                      w_r: 10.0                          	[default: 1.0]
+              which_epoch: latest                        
+----------------- End -------------------
